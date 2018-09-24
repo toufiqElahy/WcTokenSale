@@ -3,7 +3,7 @@ App = {
   contracts: {},
   account: '0x0',
   loading: false,
-  tokensAvailable: 750000,
+  tokensAvailable: 600000,
   tokenPrice: 1000000000000000, // in wei
   tokensSold: 0,
 
