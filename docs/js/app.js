@@ -114,6 +114,11 @@ App = {
 
     }).catch(function(error) {
       console.warn(error);
+      App.loading = false;
+      loader.hide();
+      content.show();
+      content.find('form :submit').attr("disabled", "disabled");
+      $('#pError').html('Select Rinkeby Testnet in Metamask.');
     });
   },
 
